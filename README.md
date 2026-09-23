@@ -192,7 +192,3 @@ Data Analyst | BI Enthusiast
 
 LinkedIn: https://www.linkedin.com/in/lalit-kumar-d05-ds/
 Email: lkk11002003@gmail.com
-
-## Summary
-
-This project reflects a realistic analytics workflow: from raw retail data to structured SQL analysis and business-facing insight generation. It demonstrates the ability to approach pricing and sales problems with a data-driven mindset, build a reliable analytical process, and communicate results in a way that supports decision-making in commercial and analytical roles.
