@@ -122,7 +122,7 @@ FROM apple_pricing_staging;
 
 
 --checking the table of content
-select * from apple_pricing;
+select * from apple_pricing_staging;
 
 -- by index checking 
 SELECT order_date, model_name, launch_price_usd, current_price_usd, profit_per, discount_pct, rating, reviews_count
@@ -147,6 +147,7 @@ group by model_name, product_category
 order by avg_profit desc;
 
 -- which sales event had the highest average discount percentage?
+
 select product_category, Sale_Event, avg(discount_pct) as avg_discount from apple_pricing
 group by sale_event, product_category
 order by avg_discount desc;
@@ -235,3 +236,5 @@ with ran_k as(
 select * from ran_k
 where ran_kk = 2
 ;
+
+create database hr_analytics;
