@@ -110,13 +110,12 @@ The dataset contains product-level transaction and pricing data with fields incl
 <div align="center">
 
 ### 📦 Data Coverage
-
+</div>
 - 2020–2026 Apple pricing timeline
 - Multi-platform e-commerce comparison
 - Product, pricing, discount, and rating attributes
 - Business-ready structured analysis dataset
 
-</div>
 
 ## 🧹 Data Cleaning and Transformation
 
