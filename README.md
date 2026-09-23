@@ -123,11 +123,32 @@ The project highlights practical business patterns, including:
 
 The visual outputs in the project help translate raw analysis into business-ready insights.
 
+```mermaid
+flowchart LR
+    A[Raw Data\nraw_data.csv] --> B[SQL Cleaning & Transformation]
+    B --> C[Structured Analytics Tables]
+    C --> D[Business KPIs & Trends]
+    D --> E[Excel Dashboard]
+    D --> F[Power BI Dashboard]
+```
+
 ![Excel Dashboard](image/excel_dashboard.JPG)
 
 ![Power BI Dashboard](image/power_bi_dashboard.JPG)
 
 These dashboards are useful for presenting findings to non-technical stakeholders and making pricing strategies easier to interpret.
+
+## Related Project Files
+
+- [data/raw_data.csv](data/raw_data.csv) — raw Apple pricing dataset
+- [scripts/create_table.sql](scripts/create_table.sql) — schema creation and base table setup
+- [scripts/import_and_alter.sql](scripts/import_and_alter.sql) — data import and transformation logic
+- [scripts/analysis_query.sql](scripts/analysis_query.sql) — exploratory and business analysis queries
+- [scripts/project_of_sql.sql](scripts/project_of_sql.sql) — supporting SQL project work
+- [dashboard/apple_products_pricing_2020_2026.xlsx](dashboard/apple_products_pricing_2020_2026.xlsx) — Excel analysis file
+- [dashboard/project_git.pbix](dashboard/project_git.pbix) — Power BI report file
+- [image/excel_dashboard.JPG](image/excel_dashboard.JPG) — Excel dashboard screenshot
+- [image/power_bi_dashboard.JPG](image/power_bi_dashboard.JPG) — Power BI dashboard screenshot
 
 ## Project Structure
 
